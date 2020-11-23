@@ -28,7 +28,9 @@ public class UserController {
 	private UserProfileService userProfileService;
 	
 	
-	
+	/*
+	 * customizes data binding feature
+	 */
 	@InitBinder
 	public void initBinder(WebDataBinder webDataBinder) {
 	 SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");

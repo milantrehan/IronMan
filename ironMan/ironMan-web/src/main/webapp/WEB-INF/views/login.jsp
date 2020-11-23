@@ -11,7 +11,7 @@
 
 <body class="normalFormBody">
 	<h1 class="heading">Welcome</h1>
-	<form action="showLoginPage">
+	<form action="userLoginAction.html">
 		<table>
 			<tr>
 				<td>

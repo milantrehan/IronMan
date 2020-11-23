@@ -17,5 +17,10 @@ public class LoginContoller {
 		return null;	
 	}
 
+	//TODO: make this method validate username and password and then perform login action
+	@RequestMapping("/userLoginAction*")
+	public String validateUser() {
+		return "userHome";
+	}
 
 }
